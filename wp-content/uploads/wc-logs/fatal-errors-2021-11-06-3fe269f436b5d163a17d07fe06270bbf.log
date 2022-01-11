@@ -1,0 +1,9 @@
+2021-11-06T21:24:31+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\OpenServer\domains\eshop\wp-content\themes\eshop\ajax.php:191
+Stack trace:
+#0 C:\OpenServer\domains\eshop\wp-includes\class-wp-hook.php(303): eshop_ajax_products('')
+#1 C:\OpenServer\domains\eshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\OpenServer\domains\eshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\OpenServer\domains\eshop\wp-admin\admin-ajax.php(187): do_action('wp_ajax_eshop_p...')
+#4 {main}
+  thrown в C:\OpenServer\domains\eshop\wp-content\themes\eshop\ajax.php на строке 191
+

@@ -1,0 +1,41 @@
+2021-11-07T11:52:31+00:00 CRITICAL Object of class WP_Term could not be converted to string в C:\OpenServer\domains\eshop\wp-content\themes\eshop\single.php на строке 45
+
+2021-11-07T11:52:46+00:00 CRITICAL Object of class WP_Term could not be converted to string в C:\OpenServer\domains\eshop\wp-content\themes\eshop\single.php на строке 45
+
+2021-11-07T11:53:14+00:00 CRITICAL Object of class WP_Term could not be converted to string в C:\OpenServer\domains\eshop\wp-content\themes\eshop\single.php на строке 45
+
+2021-11-07T14:39:35+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_ids() in C:\OpenServer\domains\eshop\wp-content\themes\eshop\woocommerce\single-product\product-image.php:60
+Stack trace:
+#0 C:\OpenServer\domains\eshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\OpenServer\domains\eshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1529): wc_get_template('single-product/...')
+#2 C:\OpenServer\domains\eshop\wp-includes\class-wp-hook.php(303): woocommerce_show_product_images('')
+#3 C:\OpenServer\domains\eshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\OpenServer\domains\eshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\OpenServer\domains\eshop\wp-content\themes\eshop\woocommerce\content-single-product.php(44): do_action('woocommerce_bef...')
+#6 C:\OpenServer\domains\eshop\wp-includes\template.php(772): require('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\eshop\wp-content\plugins\woocommerce\includes\w в C:\OpenServer\domains\eshop\wp-content\themes\eshop\woocommerce\single-product\product-image.php на строке 60
+
+2021-11-07T14:48:37+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in C:\OpenServer\domains\eshop\wp-content\themes\eshop\header.php:167
+Stack trace:
+#0 C:\OpenServer\domains\eshop\wp-includes\template.php(770): require_once()
+#1 C:\OpenServer\domains\eshop\wp-includes\template.php(716): load_template('C:\\OpenServer\\d...', true, Array)
+#2 C:\OpenServer\domains\eshop\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\OpenServer\domains\eshop\wp-content\themes\eshop\templates\template-home.php(5): get_header()
+#4 C:\OpenServer\domains\eshop\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\eshop\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\eshop\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\eshop\wp-content\themes\eshop\header.php на строке 167
+
+2021-11-07T14:48:38+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in C:\OpenServer\domains\eshop\wp-content\themes\eshop\header.php:167
+Stack trace:
+#0 C:\OpenServer\domains\eshop\wp-includes\template.php(770): require_once()
+#1 C:\OpenServer\domains\eshop\wp-includes\template.php(716): load_template('C:\\OpenServer\\d...', true, Array)
+#2 C:\OpenServer\domains\eshop\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\OpenServer\domains\eshop\wp-content\themes\eshop\404.php(10): get_header()
+#4 C:\OpenServer\domains\eshop\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\eshop\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\eshop\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\eshop\wp-content\themes\eshop\header.php на строке 167
+

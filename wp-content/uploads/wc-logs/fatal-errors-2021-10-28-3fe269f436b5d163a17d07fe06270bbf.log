@@ -1,0 +1,52 @@
+2021-10-28T20:57:49+00:00 CRITICAL Uncaught Error: Call to undefined function get_image_url() in C:\OpenServer\domains\eshop\wp-content\themes\eshop\templates\template-home.php:10
+Stack trace:
+#0 C:\OpenServer\domains\eshop\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\eshop\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\eshop\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\eshop\wp-content\themes\eshop\templates\template-home.php на строке 10
+
+2021-10-28T21:38:02+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\OpenServer\domains\eshop\wp-content\themes\eshop\woocommerce\home-product.php:4
+Stack trace:
+#0 C:\OpenServer\domains\eshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\OpenServer\domains\eshop\wp-content\themes\eshop\templates\template-home.php(105): wc_get_template('home-product.ph...')
+#2 C:\OpenServer\domains\eshop\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\eshop\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\eshop\index.php(17): require('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\eshop\wp-content\themes\eshop\woocommerce\home-product.php на строке 4
+
+2021-10-28T21:38:26+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\OpenServer\domains\eshop\wp-content\themes\eshop\woocommerce\home-product.php:4
+Stack trace:
+#0 C:\OpenServer\domains\eshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\OpenServer\domains\eshop\wp-content\themes\eshop\templates\template-home.php(105): wc_get_template('home-product.ph...')
+#2 C:\OpenServer\domains\eshop\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\eshop\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\eshop\index.php(17): require('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\eshop\wp-content\themes\eshop\woocommerce\home-product.php на строке 4
+
+2021-10-28T21:42:04+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\OpenServer\domains\eshop\wp-content\themes\eshop\woocommerce\home-product.php:4
+Stack trace:
+#0 C:\OpenServer\domains\eshop\wp-includes\template.php(772): require()
+#1 C:\OpenServer\domains\eshop\wp-includes\template.php(716): load_template('C:\\OpenServer\\d...', false, Array)
+#2 C:\OpenServer\domains\eshop\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\OpenServer\domains\eshop\wp-content\themes\eshop\templates\template-home.php(105): get_template_part('woocommerce/hom...', 'product')
+#4 C:\OpenServer\domains\eshop\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\eshop\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\eshop\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\eshop\wp-content\themes\eshop\woocommerce\home-product.php на строке 4
+
+2021-10-28T21:42:30+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\OpenServer\domains\eshop\wp-content\themes\eshop\woocommerce\home-product.php:4
+Stack trace:
+#0 C:\OpenServer\domains\eshop\wp-includes\template.php(772): require()
+#1 C:\OpenServer\domains\eshop\wp-includes\template.php(716): load_template('C:\\OpenServer\\d...', false, Array)
+#2 C:\OpenServer\domains\eshop\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\OpenServer\domains\eshop\wp-content\themes\eshop\templates\template-home.php(105): get_template_part('woocommerce/hom...', 'product')
+#4 C:\OpenServer\domains\eshop\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\eshop\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\eshop\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\eshop\wp-content\themes\eshop\woocommerce\home-product.php на строке 4
+
